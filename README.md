@@ -57,7 +57,7 @@ Before installing this project, you need to install on your computer:
 Run the following command in the terminal:
 
 ```
-git clone https://github.com/adi-ben-yehuda/Hearst-Patterns.git
+git clone https://github.com/adi-ben-yehuda/Logical-Expressions-Nand-and-Nor-Logic-and-Logical-Simplification.git
 ```
 
 There are two options to run this project. 
