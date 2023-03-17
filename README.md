@@ -1,23 +1,25 @@
 # Logical-Expressions-Nand-and-Nor-Logic-and-Logical-Simplification
 
 ## Introduction
-Hypernymy (also called IS-A relation) is a semantic relation between two noun phrases, hypernym and hyponym, such that the hyponym is a subtype of the hypernym. For example, cat and dog are hyponym of animal because they are types of animals. Hypernym relations are hierarchical, so a word can have multiple hypernyms. For example, dog is a hyponym of animal, canine and mammal.
-Many methods have been developed in the last decades in order to automatically construct a database of hypernym relations from large corpora.
-A well-established approach to do so is using lexico-syntactic patterns, often called Hearst patterns (as the idea was introduced by Marti Hearst in this paper). For example, given the sentence "semitic languages such as Hebrew or Arabic are composed of consonants and voyels", we can infer that both Hebrew and Arabic are semitic languages. Such relations can be retrieved using a simple regular expression.
+This system can represent nested logical expressions that include variables, evaluate their values for specific variable assignments, convert them, and simplify the results.
 
 
 ## Table of contents
-* [UML Diagram of the project](#UML Diagram-of-the-project)
+* [Class Hierarchy](#Class-Hierarchy)
 * [General Information](#general-information)
 * [Installation](#installation)
 * [Contact](#Contact)
 
-## UML Diagram of the project
+## Class Hierarchy
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/75027826/225859400-2153d649-aabb-4add-b9db-ae14a2f1a83b.png">
 
 ## General Information
+### Part 1 - Logical Expressions
 
+Introduction:
+Our goal is to represent logical expressions such as:
 
+~((T & (x | y))^x)
 
 ## Installation
 Before installing this project, you need to install on your computer:
