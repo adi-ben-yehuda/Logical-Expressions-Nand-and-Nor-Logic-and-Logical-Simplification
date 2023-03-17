@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Adi Ben Yehuda 211769757
+ * @author Adi Ben Yehuda
  * @since 2022-04-27
  */
 public class Not extends UnaryExpression implements Expression {

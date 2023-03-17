@@ -1,5 +1,5 @@
 /**
- * @author Adi Ben Yehuda 211769757
+ * @author Adi Ben Yehuda
  * @since 2022-04-30
  */
 public abstract class BaseExpression implements Expression {

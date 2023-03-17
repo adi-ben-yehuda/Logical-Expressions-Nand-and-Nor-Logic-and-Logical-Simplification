@@ -1,7 +1,7 @@
 import java.util.Map;
 
 /**
- * @author Adi Ben Yehuda 211769757
+ * @author Adi Ben Yehuda
  * @since 2022-04-27
  */
 public class Nor extends BinaryExpression implements Expression {
