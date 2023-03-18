@@ -19,7 +19,11 @@ The goal is to represent logical expressions such as:
 ~~~
 ~((T & (x | y))^x)
 ~~~
-Where T is a value of "True", the ~,|,&,^, symbols denotes the "not","or","and" and "xor" operators respectively, and x and y are variables.
+Where 
+~~~
+T 
+~~~
+is a value of "True", the ~,|,&,^, symbols denotes the "not","or","and" and "xor" operators respectively, and x and y are variables.
 
 The unary expressions are:
 * Var("x") indicating that x is a variable.
